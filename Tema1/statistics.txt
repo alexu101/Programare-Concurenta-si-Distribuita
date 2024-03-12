@@ -1,0 +1,36 @@
+-> pentru a genera fisiere de x mb, se va rula scriptul generate_test_file.py (x setat in cod)
+->comanda rulare client: python client.py [protocol] [operation] [file] [size]
+->comanda rulare server: python server.py [protocol] [operation]
+-> parametrii: protocol(tcp, udp), operation(streaming, stop-and-await), file(input file name), size(chunk size)
+
+Statistici:
+-> fisierul generat are aprox 500 mb.
+
+->TCP Streaming:
+Transmission time: 21.090189695358276
+Messages sent:513347
+Bytes sent:525667224
+Messages recieved:513347
+Bytes received:525667224
+
+->TCP Stop-And-Wait
+Transmission time: 40.61653447151184
+Messages sent: 513347
+Bytes sent: 525667224
+Messages recieved: 513347
+Bytes received: 525667224
+
+-UDP Streaming
+Transmission time: 10.57468056678772
+Messages sent: 513347
+Bytes sent: 525667224
+Messages recieved: 513347
+Bytes received: 525667224
+
+-UDP Streaming
+Transmission time: 39.7977397441864
+Messages sent: 513347
+Bytes sent: 525667224
+Messages recieved: 513347
+Bytes received: 525667224
+
